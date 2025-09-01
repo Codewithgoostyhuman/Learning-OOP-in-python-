@@ -1,4 +1,4 @@
-'''class circumference:
+class circumference:
     def __init__(self):
         while True:
             try:
@@ -9,9 +9,9 @@
     def calculateCircumference(self):
         return 2* 3.14 * self.radius
 obj = circumference()
-print(obj.calculateCircumference())'''
+print(obj.calculateCircumference())
 
-from unittest import addModuleCleanup
+
 
 
 class BankAccount:
@@ -51,4 +51,5 @@ obj = BankAccount()
 obj.info()
 obj.deposit()
 obj.withdraw()
+
 obj.info()
